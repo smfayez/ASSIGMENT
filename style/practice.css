@@ -173,7 +173,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 115px;
 }
 .left h1{
     font-size: 97px;
@@ -186,23 +186,24 @@ label{
     margin-bottom: 10px;
 }
 input{
-    width: 400px;
-    padding: 15px 30px;
+    width: 497px;
+    padding: 20px 30px;
     margin-bottom: 10px;
     border: none;
     border-radius: 10px;
 }
 textarea{
-    width: 400px;
+    width: 497px;
     height: 135px;
     border: none;
 }
 .inpu{
-    width: 400px;
+    width: 497px;
     margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
 }
+/* footer */
 .footerrr{
     /* text-align: center; */
     
