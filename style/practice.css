@@ -6,10 +6,20 @@
 .color{
     background: linear-gradient(rgba(214, 221, 237, 0.5));
 }
+/* head */
 .header{
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
     padding: 10px;
+}
+.header-container{
+    text-align: center;
+    margin: 200px 267.5px 237px 267.5px;
+}
+.header-container h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 37px;
 }
 nav h1{
     font-size: 34px;
@@ -36,22 +46,19 @@ nav ul li a{
     border: none;
     border-radius: 13px;
 }
-.header-container{
-    text-align: center;
-    margin: 200px 267.5px 237px 267.5px;
-}
-.header-container h1{
-    font-size: 60px;
-    font-weight: bold;
-    margin-bottom: 37px;
+.dark-1{
+      color: #000000;
 }
 /* action */
+.action{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
 .action-container{
     display: flex;
-    margin: 116px 160px 116px 143px;
     align-items: center;
     justify-content: space-between;
-    gap: 120px;
 }
 .col-left h1{
     font-size: 42px;
@@ -64,28 +71,34 @@ nav ul li a{
     margin-bottom: 20px;
 }
 .col-right img{
+    margin-top: 50px;
     width: 403px;
     height: 328px;
     border-radius: 48px;
 }
 /* Productive */
 .Productive{
-    height: 290px;
-    background-color: #c4c3e6;
-    margin: 116px 159px 130px 143px;
-    padding: 50px 142px;
-    border-radius: 10px;
+   max-width: 1100px;
+   margin: 0 auto;
+   background-color: #c4c3e6;
+   margin-top: 150px;
+  border-radius: 25px;
+}
+.Productive-main{
+    padding: 50px 100px 80px 100px;
 }
 .Productive-main h1{
     text-align: center;
     font-size: 34px;
     font-weight: bold;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+    margin-top: 10px;
 }
 .productive-cards{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .cards-1 h1{
     font-size: 80px;
@@ -96,8 +109,10 @@ nav ul li a{
     text-align: center;
 }
 /*=================== user================= */
-.users-container{
-    margin: 137px 149px 137px 151px;
+.users{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 130px;
 }
 .users-container h1{
     font-size: 42px;
@@ -139,8 +154,10 @@ nav ul li a{
 }
 /*====================== focus =========================*/
 .focuse-main{
-    margin: 137px 150px 92.23px 150px;
+    max-width: 1100px;
+    margin: 0 auto;
     background-color: #ffff;
+    margin-top: 130px;
 }
 .focuse-sub-main{
     height: 696.77px;
@@ -161,19 +178,21 @@ nav ul li a{
 }
 .imges img{
     margin-top: 20px;
-    width: 740px;
+    width: 900px;
     height: 365.77px;
     border-radius: 40px;
 }
 /*================== input ===================*/
 .input-main{
-    margin: 92.23px 150px 14px 150px;
+   max-width: 1100px;
+   margin: 0 auto;
+   margin-top: 130px;
 }
 .input-sub-main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 115px;
+    gap: 200px;
 }
 .left h1{
     font-size: 97px;
@@ -184,6 +203,10 @@ label{
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+.right{
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 input{
     width: 497px;
@@ -205,28 +228,22 @@ textarea{
 }
 /* footer */
 .footerrr{
-    /* text-align: center; */
-    
+    max-width: 1270px;
     background-color: #ffff;
+    padding: 104px 300px 103px 300px;
 }
-.footer-container{
-    /* margin: 100px 400px; */
-    padding: 5px 400px 50px 400px;
+.footer-heading{
     text-align: center;
 }
-.footer-container h1{
-    font-size: 100px;
-    font-weight: bold;
+.footer-heading h1{
+    font-size: 6rem;
     color: #4E47FF;
-    padding: 10px;
-    margin-top: 114px;
 }
-.footer-container p{
+.footer-heading p{
     margin-bottom: 20px;
 }
 .footer-texts{
     display: flex;
-    gap: 40px;
-    align-items: center;
-    margin-left: 60px;
+    justify-content: center;
+    gap: 35px;
 }
